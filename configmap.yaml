@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-config
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
+data:
+  WELCOME_MESSAGE: "Hola desde el ConfigMap"
