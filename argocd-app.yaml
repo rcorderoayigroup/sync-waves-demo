@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/tu-usuario/tu-repo.git
+    repoURL: https://github.com/rcorderoayigroup/tu-repo.git
     path: sync-waves-demo
     targetRevision: HEAD
   destination:
