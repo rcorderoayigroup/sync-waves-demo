@@ -6,10 +6,10 @@ spec:
   project: default
   source:
     repoURL: https://github.com/rcorderoayigroup/sync-waves-demo.git
-    path: /
+    path: .
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: argocd
+    namespace: default
   syncPolicy:
     automated: {}
