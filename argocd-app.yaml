@@ -6,7 +6,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/rcorderoayigroup/sync-waves-demo.git
-    path: sync-waves-demo
+    path: .
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
